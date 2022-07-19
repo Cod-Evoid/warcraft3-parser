@@ -12,6 +12,12 @@
     "files": [
         "/lib"
     ],
+    "exports": {
+        "./mdx": {
+            "types": "./lib/mdx.d.ts",
+            "import": "./lib/mdx.js"
+        }
+    },
     "scripts": {
         "build": "node scripts/build.js",
         "dev": "node scripts/build.js --dev",

@@ -3,7 +3,9 @@ import { EnvPlugin } from './plugins/env.js';
 import { StatusPlugin } from './plugins/status.js';
 
 esbuild.build({
-    entryPoints: [],
+    entryPoints: {
+        mdx: 'src/mdx/index.ts',
+    },
     target: 'es2020',
     format: 'esm',
     sourcemap: true,
