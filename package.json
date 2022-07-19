@@ -1,0 +1,33 @@
+{
+    "name": "@cod-evoid/warcraft3-parser",
+    "version": "0.0.0",
+    "description": "Parser for Warcraft 3: Reforged file formats.",
+    "author": "StivenHunt <fishu61@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Cod-Evoid/warcraft3-parser.git"
+    },
+    "license": "MIT",
+    "type": "module",
+    "files": [
+        "/lib"
+    ],
+    "scripts": {
+        "build": "node scripts/build.js",
+        "dev": "node scripts/build.js --dev",
+        "types:emit": "tsc --declaration --emitDeclarationOnly",
+        "types:check": "tsc --noEmit",
+        "lint": "eslint src/ --ext .ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@cod-evoid/hexcod": "^1.1.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.26.0",
+        "@typescript-eslint/parser": "^5.26.0",
+        "esbuild": "^0.14.39",
+        "eslint": "^8.16.0",
+        "typescript": "^4.7.2"
+    }
+}

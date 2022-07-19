@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+        /* Language and Environment */
+        "target": "ES2020",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+
+        /* Modules */
+        "module": "ES2020",                                  /* Specify what module code is generated. */
+        "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+        "moduleResolution": "Node16",                        /* Specify how TypeScript looks up a file from a given module specifier. */
+
+        /* Emit */
+        "outDir": "./lib",                                   /* Specify an output folder for all emitted files. */
+        "noEmitOnError": true,                               /* Disable emitting files if any type checking errors are reported. */
+
+        /* Interop Constraints */
+        "isolatedModules": true,                             /* Ensure that each file can be safely transpiled without relying on other imports. */
+        "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+        /* Type Checking */
+        "strict": true,                                      /* Enable all strict type-checking options. */
+        "noImplicitOverride": true,                          /* Ensure overriding members in derived classes are marked with an override modifier. */
+
+        /* Completeness */
+        "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
+    }
+}
